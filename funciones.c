@@ -16,12 +16,21 @@ float imc(float peso, float altura)
   return peso/(altura * altura);
 }
 
+// Procedimiento que escribe un saludo.
+void saludo(char * nombre, char * apellido)
+{
+  printf("Hola, %s %s.", nombre, apellido);
+}
+
+//Procedimiento que imprime en que categoria esta segun su IMC.
+void clase_imc(float imc)
+{
+  // Aqui algun desafortunado escribira su codigo.
+}
+
 // Entry point: Punto de entrada.
 int main(int argc, char * argv[])
 {
-  printf("%f\n", imc(92, 1.8));
-  //printf("f(9) = %f\n", cuadrado(9.0));
-  //printf("f(5) = %f\n", cuadrado(5.0));
-  //printf("f(2) = %f\n", cuadrado(2.0));
+  clase_imc(imc(92, 1.8));
   return 0;
 }
