@@ -24,9 +24,20 @@ int fibonacci(int n)
 // anitalavalatina = 1
 // Hola = 0
 // 101 = 1
-int palindromo(char * palabra)
-{
-    // Ya se la saben...
+int palindromo(const char *str, int inicio, int fin) {
+    // Daniel participo
+    if (inicio >= fin) {
+        return 1;
+    }
+    if (str[inicio] != str[fin]) {
+        return 0;
+    }
+    return palindromo(str, inicio + 1, fin - 1);
+}
+
+int palindromo2(const char *str, int inicio, int fin) {
+    // Samantha participo
+    //
 }
 
 void funcion()
