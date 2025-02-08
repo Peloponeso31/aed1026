@@ -3,7 +3,7 @@
 El lenguaje C es un lenguaje de programación de propósito general, creado en 1972 por Dennis Ritchie en los laboratorios Bell. Es uno de los lenguajes más utilizados en la historia de la computación y ha influenciado muchos otros lenguajes como C++, Java, Python y Go.
 
 ## Manipulación de memoria.
-El lenguaje C se diferencia de los lenguajes de alto nivel principalmente por su control directo sobre la memoria, lo que permite una gestión eficiente de los recursos del sistema. A continuación, te explico cómo se compara con otros lenguajes en este aspecto:
+El lenguaje C se diferencia de los lenguajes de alto nivel principalmente por su control directo sobre la memoria, lo que permite una gestión eficiente de los recursos del sistema.
 
 ## Caracteristicas.
 ### C es un lengaje compilado.
