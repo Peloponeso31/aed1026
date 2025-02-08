@@ -7,7 +7,10 @@ El lenguaje C se diferencia de los lenguajes de alto nivel principalmente por su
 
 ## Caracteristicas.
 ### C es un lengaje compilado.
-Un lenguaje compilado es aquel en el que el código fuente es transformado en código máquina (binario) antes de ejecutarse. Esta conversión la realiza un programa llamado compilador, que genera un archivo ejecutable que puede correr directamente en la computadora sin necesidad del código fuente original.
+Un lenguaje compilado es aquel en el que el código fuente es transformado en código máquina (binario) antes de ejecutarse. Esta conversión la realiza un programa llamado compilador, que genera un archivo ejecutable que puede correr directamente en la computadora sin necesidad del código fuente original. Dicho ejecutable lo generamos con GCC.
+```
+gcc archivo.c -o nombre_del_programa
+```
 
 ### C es un lenjuage estatico.
 El tipado estático es una característica de algunos lenguajes de programación donde el tipo de dato de una variable se define en tiempo de compilación y no puede cambiar en tiempo de ejecución.
