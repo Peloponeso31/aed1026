@@ -6,7 +6,8 @@ int main(int argv, char * argc[])
     int size = 8;
     int * lista = malloc(sizeof(int[size]));
     
-    if (lista == NULL) {
+    if (lista == NULL)
+    {
         printf("error al asignar la memoria\n");
         return 1;
     }
