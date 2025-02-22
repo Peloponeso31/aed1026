@@ -1,3 +1,4 @@
 [submodule "lista"]
 	path = lista
 	url = https://github.com/Peloponeso31/lista_3re.git
+	branch = main
