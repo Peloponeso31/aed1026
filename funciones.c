@@ -27,7 +27,7 @@ void saludo(char * nombre, char * apellido)
 void clase_imc(float imc)
 {
   // Aqui algun desafortunado escribira su codigo.
-  // Alan participo.
+  // Alan Flores participo.
   if(imc<18.5){
     printf("Tu imc es de bajo peso");
   }else if(imc>=18.5&& imc<24.9){
