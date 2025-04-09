@@ -3,8 +3,7 @@
 #ifndef _HEADER_PILA_
 #define _HEADER_PILA_
 
-typedef struct pila
-{
+typedef struct pila {
     struct nodo * tope;
     int longitud;
 } pila;
@@ -32,6 +31,11 @@ int pop(struct pila * pila)
     pila->tope = pila->tope->siguiente;
     free(borrable);
     return valor;
+}
+
+int peek(struct pila * pila)
+{
+    return pila->tope->dato;
 }
 
 #endif
