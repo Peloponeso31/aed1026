@@ -19,13 +19,20 @@ struct nodo * crear_nodo(int dato, struct nodo * izquierda, struct nodo * derech
     return nuevo;
 }
 
-void recorrer(struct nodo * nodo)
+void imprimir_espacios(int numero)
+{
+    for (int i = 0; i < numero-1; i++) printf(" ");
+}
+
+void recorrer(struct nodo * nodo, int nivel)
 {
     if (nodo == NULL) return;
+    nivel++;
 
-    printf("%d", nodo->dato);
-    recorrer(nodo->izquierda);
-    recorrer(nodo->derecha);
+    recorrer(nodo->izquierda, nivel);
+    imprimir_espacios(nivel);
+    printf("%d\n", nodo->dato);
+    recorrer(nodo->derecha, nivel);
 }
 
 #endif

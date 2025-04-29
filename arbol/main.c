@@ -8,7 +8,9 @@ int main()
     agregar_dato(arbol, arbol->raiz, 1);
     agregar_dato(arbol, arbol->raiz, 6);
     agregar_dato(arbol, arbol->raiz, 4);
+    agregar_dato(arbol, arbol->raiz, -50);
+    agregar_dato(arbol, arbol->raiz, -3);
 
-    recorrer(arbol->raiz);    
+    recorrer(arbol->raiz, 0);    
     return 0;
 }
